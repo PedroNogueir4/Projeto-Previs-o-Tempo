@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="./scripts.js"></script>
     <title>Previsão do Tempo</title>
 </head>
 
@@ -17,8 +18,8 @@
         <div class="div-itens">
 
             <div class="top-itens"> 
-                <input placeholder="Digite o nome da cidade" />
-                <button> <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" /> </button>
+                <input  class="search" placeholder="Digite o nome da cidade" />
+                <button onclick="buscarCidade()"> <img class="lupa" src="https://www.svgrepo.com/show/488200/find.svg" /> </button>
             </div>
             <h2>Tempo em São Paulo</h2>
             <p class="temp">21°C</p>

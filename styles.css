@@ -18,7 +18,7 @@ body {
     display: flex;
 }
 
-input {
+.search {
     border-radius: 25px;
     border: none;
     background: #7c7c7c2b;
@@ -67,6 +67,6 @@ h2 {
 .div-clima {
     display: flex;
     align-items: center;
-    margin-bottom: 32px;
+    margin-bottom: 12px;
     gap: 13px;
 }
