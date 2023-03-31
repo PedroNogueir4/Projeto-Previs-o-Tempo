@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://source.unsplash.com/1600x900/?landscape);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-itens {
+    display: flex;
+}
+
+input {
+    border-radius: 25px;
+    border: none;
+    background: #7c7c7c2b;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    height: 42px;
+}
+
+button {
+    background: #7c7c7c2b;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 3px;
+    margin-left: 9px;
+    cursor: pointer;
+
+}
+
+.lupa {
+    width: 35px;
+    height: 31px;
+}
+
+.div-itens {
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    padding: 6%;
+    border-radius: 22px;
+    width: 115%;
+}
+
+h2 {
+    margin: 28px 0px 28px;
+}
+
+.temp {
+    margin-bottom: 25px;
+}
+
+
+.div-clima {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    gap: 13px;
+}
